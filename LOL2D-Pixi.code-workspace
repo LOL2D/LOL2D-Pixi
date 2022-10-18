@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"eslint.format.enable": true,
+		"eslint.workingDirectories": [
+			"./client",
+			"./core",
+			"./server"
+		],
+		"editor.formatOnSave": true
+	}
+}
