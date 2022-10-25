@@ -1,6 +1,8 @@
 import { Vec2 } from "../utils/Vec2.js";
 
 export class GameObject {
+  #toRemove = false;
+
   constructor(
     game,
     position = new Vec2(),
@@ -16,8 +18,6 @@ export class GameObject {
     this.pathingRadius = pathingRadius;
     this.visionRadius = visionRadius;
     this.team = team;
-
-    this.#toRemove = false;
   }
 
   onAdded() {}
